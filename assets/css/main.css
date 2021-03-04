@@ -1,0 +1,488 @@
+html {
+  height: auto;
+  width: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+.navbarLinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbarLinks ul li {
+  float: left;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 1000;
+}
+
+.navbarLinks ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #8a0303;
+}
+
+.navbarLinks ul li a:hover {
+  /* background-color: #d1eaf3; */
+  border-bottom: 1px solid #8a0303;
+}
+
+.navHLink {
+  color: #ffffff;
+  height: 50px;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.navHLink:hover {
+  color: #39729b;
+}
+
+#navbarNav,
+#collapseMenu {
+  color: #ffffff;
+  background-color: #8a0303;
+  width: 100%;
+}
+#topHeader {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #8a0303;
+  top: 0;
+  left: 0;
+}
+#topnavh3 {
+  margin-top: 10px;
+}
+
+#mainNav {
+  margin-top: 50px;
+}
+
+#buttonHamburger {
+  display: none;
+}
+
+#topHeader ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-right: 50px;
+  overflow: hidden;
+  list-style-type: none;
+}
+#topHeader ul li,
+#topHeader ul li a {
+  color: #ffffff;
+  float: right;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.descP {
+  color: #56413b;
+}
+
+#intro {
+  padding-top: 150px;
+}
+#donateusBtn {
+  background-color: #56413b;
+}
+
+.ourVision {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+/* #secOneContainer {
+  background-color: #e3b0a4;
+} */
+
+#topContent {
+  margin-top: 150px;
+  right: 0;
+}
+
+#imgContainer {
+  height: 325px;
+}
+.ourVision h4 {
+  color: #56413b;
+  padding-top: 10px;
+}
+.ourVision h3 {
+  color: #56413b;
+}
+.backstretch {
+  height: 2000;
+}
+
+#sectionOne {
+  margin-top: 120px;
+  /* background-color: #0c3c60; 
+  color: #ffffff;*/
+}
+
+.card {
+  background-color: #f2d7d0;
+  color: #8a0303;
+}
+#moreinfoOne,
+#moreinfoTwo,
+#moreinfoThree,
+#readMoreAboutUs {
+  background-color: #8a0303;
+  color: #ffffff;
+}
+#moreinfoOne:hover,
+#moreinfoTwo:hover,
+#moreinfoThree:hover {
+  background-color: #811d11;
+} /*
+#moreinfoOne:active,
+#moreinfoTwo:active,
+#moreinfoThree:active {
+  background-color: #78291c;
+  border: #78291c;
+} */
+
+#sectionTwoContainer {
+  /* background-color: #f2d7d0; */
+  color: #56413b;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+#sec3H1,
+.sec3H5,
+.sec3P {
+  color: #56413b;
+}
+
+#sectionFourContainer {
+  background-color: #f2d7d0;
+  color: #56413b;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+/* #sec4P {
+  text-align: center;
+} */
+
+iframe {
+  align-content: center;
+  margin: auto;
+  width: 600px;
+  height: 350px;
+}
+
+/* #sectionTwo {
+  padding-top: 100px;
+} */
+#readMoreAboutUs {
+  margin-left: 45%;
+}
+#pageFooter {
+  background-color: #8a0303;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+#footerSec {
+  width: 100%;
+}
+#footerSec1,
+#footerSec2,
+#footerSec3 {
+  color: #ffffff;
+}
+
+#footerSec3 ul,
+#footerSec2 ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+#footerSec2 ul li {
+  float: left;
+}
+
+#footerSec2 ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#footerSec3 ul li,
+#footerSec1 p {
+  text-align: left;
+  margin-left: 80px;
+}
+#footerSec3 ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#footerCopyright {
+  color: #8a0303;
+  background-color: #ffffff;
+  height: 50px;
+  margin-bottom: 0;
+  padding: 5px;
+  text-align: left;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#copyrightCont {
+  padding-left: 15px;
+  margin-left: 0px;
+}
+
+/* About us */
+.iconImg {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #ddd;
+}
+
+ul.submenu {
+  text-align: left;
+  width: 400px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f1f1f1; */
+}
+ul.submenu li a {
+  display: block;
+  color: #8a0303;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+l.submenu li a:hover {
+  background-color: #f2d7d0;
+}
+
+#whoweareCntr {
+  /* text-align: left; */
+  padding-right: 30px;
+}
+#whoweare {
+  text-align: center;
+}
+
+#archbishopImg {
+  width: 400px;
+  height: 500px;
+  padding-bottom: 20px;
+}
+
+.churchWebsiteList {
+  color: #811d11;
+}
+
+@media screen and (max-width: 768px) {
+  /* body {
+    overflow-x: hidden;
+  } */
+
+  #mainNavUl {
+    display: none;
+  }
+  #buttonHamburger {
+    display: inline;
+    margin-bottom: 10px;
+  }
+  #navbarNav {
+    margin: auto;
+    padding: auto;
+  }
+  #firstCard,
+  #secondCard,
+  #thirdCard {
+    display: block;
+  }
+  .miniImg {
+    display: none;
+  }
+
+  #footerSec1,
+  #footerSec2,
+  #footerSec3 {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  #footerSec2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* body {
+    overflow-x: hidden;
+  } */
+  #buttonHamburger {
+    display: block;
+  }
+  #topnavh3 {
+    margin-top: 0px;
+  }
+  /* #navbarNav {
+    margin-right: 25px;
+  } */
+  #topHeader ul li {
+    display: none;
+  }
+}
+
+/* ABOUT US */
+#aboutMainContainer {
+  padding-top: 200px;
+  margin: auto;
+  background-color: #ffffff;
+  color: black;
+}
+
+.aboutContainer {
+  padding-top: 175px;
+}
+
+#whoWeAreContainer,
+#churchsContainer {
+  color: #56413b;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+#archbishopContainer {
+  background-color: #f2d7d0;
+  color: #56413b;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+/* CONTACT US */
+
+#formContainer {
+  margin-top: 150px;
+  border-radius: 5px;
+  background-color: #f0f8fb;
+  padding: 20px;
+  color: #0c3c60;
+}
+
+.form-group {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+.form-group textarea {
+  height: 150px;
+}
+
+input[type="text"]:focus {
+  border: gray;
+}
+
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #39729b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: #003c6c;
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: #d35400;
+  color: white;
+  font-size: 20px;
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: #d35400;
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contactContainerOne,
+  #contactContainerTwo {
+    width: 100%;
+  }
+}
+
+/* Services */
+#classContainer {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 100px;
+}
+.serviceP,
+.serviceH3 {
+  text-align: left;
+}
+#servicesContainer {
+  margin-top: 150px;
+  color: #0c3c60;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
